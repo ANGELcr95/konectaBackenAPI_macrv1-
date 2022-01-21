@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS ventas_cafeteria(
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(255) NOT NULL,
+    uds_vendidas TINYINT NOT NULL,
+    precio  DECIMAL(9,2) NOT NULL,
+    ingresos  DECIMAL(14,2) NOT NULL
+);
