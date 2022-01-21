@@ -2,9 +2,9 @@ CREATE TABLE IF NOT EXISTS productos_cafeteria(
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255) NOT NULL,
     referencia VARCHAR(255) NOT NULL,
-    precio  DECIMAL(9,2) NOT NULL,
-    peso  DECIMAL(9,2) NOT NULL,
+    precio  INT(30) NOT NULL,
+    peso  INT(30) NOT NULL,
     categoria  VARCHAR(255) NOT NULL,
-    stock  TINYINT NOT NULL,
+    stock  INT(30) NOT NULL,
     fecha  DATE NOT NULL
 );
